@@ -27,6 +27,7 @@ main{
 }
 .formulario input::placeholder{
     color: #fffbfb;
+    padding: 0px 10px;
 }
 .formulario button{
     height: 30px;

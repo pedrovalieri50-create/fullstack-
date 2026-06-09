@@ -90,3 +90,8 @@ nav a{
     transition: color 0.2s;
     font-size: 20px;
 }
+#senhaperdida{
+    color: #fffbfb;
+    text-decoration: none;
+    text-align: right;
+}

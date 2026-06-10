@@ -74,9 +74,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    border: 2px solid white;
     width: 500px;
-    border-radius: 30px;
     padding: 10px 25px;
 }
 nav ul{
@@ -86,13 +84,33 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+nav ul li{
+    position: relative;
+}
 nav a{
-    text-decoration: none; /* Remove o sublinhado dos links */
+    text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 14px;
     transition: color 0.2s;
     font-size: 20px;
+    position: relative;
+}
+
+nav li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    bottom: -5px;
+    left: 0;
+    color: white;
+    position: absolute; 
+    transition: width 0.7s ease-in-out;
+}
+
+nav li:hover::after{
+    width: 100%;
 }
 #hrefsbottom{
     display: flex;

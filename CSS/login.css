@@ -94,8 +94,12 @@ nav a{
     transition: color 0.2s;
     font-size: 20px;
 }
-#senhaperdida{
+#hrefsbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.voltar{
     color: #fffbfb;
     text-decoration: none;
-    text-align: right;
 }

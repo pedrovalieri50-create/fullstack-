@@ -94,8 +94,8 @@ nav a{
     transition: color 0.2s;
     font-size: 20px;
 }
-#japossuicadastro{
+.voltar{
     color: #fffbfb;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
 }
